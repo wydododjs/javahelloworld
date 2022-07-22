@@ -45,7 +45,7 @@ jobs:
       #   ScanCentral Client will download dependencies for maven, gradle and msbuild projects.
       #   For other build tools, add your build commands to the workflow to download necessary dependencies and prepare according to Fortify SCA documentation.
       - name: Perform SAST Scan
-        run: scancentral -url http://b8d00bd32ecb.sn.mynetname.net:8080/scancentral-ctrl/ start -bt none -uptoken e91d8906-fbf9-4b2c-994e-971549c86592
+        run: scancentral -url http://b8d00bd32ecb.sn.mynetname.net:8080/scancentral-ctrl/ start -bt none -uptoken ZTkxZDg5MDYtZmJmOS00YjJjLTk5NGUtOTcxNTQ5Yzg2NTky
         env:                                            
           SC_CONTROLLER_URL: ${{ secrets.SC_CONTROLLER_URL }}
           SSC_UPLOAD_TOKEN: ${{ secrets.SSC_UPLOAD_TOKEN }}
