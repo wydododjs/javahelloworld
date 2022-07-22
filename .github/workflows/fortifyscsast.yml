@@ -50,7 +50,7 @@ jobs:
           SC_CONTROLLER_URL: http://b8d00bd32ecb.sn.mynetname.net:8080/scancentral-ctrl/
           SSC_UPLOAD_TOKEN: P@ssw0rd4SPT
           APPLICATION: "Javahelloword"
-          VERSION: "1.0"
+          VERSION: "1"
           BUILD_OPTS: "-bt none"
 
       ### Archive ScanCentral Client logs on failure ###
